@@ -6,5 +6,4 @@ let currentDate = new Date();
 	 function() {
 		currentDate = new Date();
 	 timerDisplay.innerHTML = currentDate.toLocalString();
-	 }, 1000;
- )
+	 }, 1000);
